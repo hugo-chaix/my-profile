@@ -1,0 +1,108 @@
+body {
+	background-color: rgba(255,165,0, 0.95);
+	color: rgb(60,60,60);
+}
+
+h1{
+	color: rgba(240,248,255,0.8)
+}
+
+h2{
+	color: rgba(240,248,255,0.8)
+}
+
+h3{
+	color: rgba(240,248,255,0.9)
+}
+
+h4{color: rgb(240,248,255)
+}
+
+h1 {letter-spacing: 2px;
+	font-family: system-ui;
+	font-size: 40px;
+}
+
+h2 {
+	letter-spacing: 2px;
+	font-family: system-ui;
+	font-size: 25px;
+}
+
+h3, h4 {
+	letter-spacing: 1px;
+	font-family: system-ui "serif";
+	font-size: 20px;
+}
+p, li{
+	color: rgba(20,20,20,0.9);
+	font-family: Comic sans ms, serif;
+	font-size: 15px;
+	letter-spacing: 0.3px;
+}
+
+a{
+	text-decoration: none;
+	color: white;
+}
+
+a:hover{ 
+color: rgb(114,160,193);
+ }
+
+#pp{
+	border-radius: 50%;
+}
+
+.container {
+	margin: 25px auto;
+	width: 750px	
+}
+
+.card-center {
+	border-radius: 10px;
+	height: 384px;
+	padding:10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(87, 128, 242, 1)
+}
+
+.border-dashed {
+	border-top: dashed;
+	border-bottom: dashed;
+	margin: 10px auto;
+	text-align: center;
+}
+
+.card-blue {
+	margin: 20px auto;
+	background: rgba(87, 128, 242, 0.9);
+	border-radius: 10px;
+	padding-right: 15px;
+	padding-left: 15px;
+	padding-bottom: 20px;
+	padding-top: 20px;
+	box-shadow: 5px 5px 20px rgba(0,0,0,.4); 
+}
+
+.card-bluea {
+	margin: 0px auto;
+	background: rgba(87, 128, 242, 0.9);
+	border-radius: 8px;
+	padding-right: 15px;
+	padding-left: 15px;
+	padding-top: 20px;
+	padding-bottom: 5px;
+}
+.card-blueb {
+	margin: 0px auto;
+	background: rgba(87, 128, 242, 0.9);
+	border-radius: 8px;
+	padding-right: 15px;
+	padding-left: 15px;
+	padding-bottom: 20px;
+	padding-top: 20px;
+	box-shadow: 5px 5px 2px rgba(0,0,0,.1); 
+}
